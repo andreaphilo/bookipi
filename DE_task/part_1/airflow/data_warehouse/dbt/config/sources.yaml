@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    tables:
+      - name: user
+      - name: company
+      - name: subscription
+      - name: subscription_payment
+      - name: invoice_item
+      - name: invoice_payments

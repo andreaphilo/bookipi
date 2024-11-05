@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Page-1" id="IOHmYg8OhSU6BkeB4RLG">
+    <mxGraphModel dx="1769" dy="1272" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WEhfHssHNVyv2BFCGMFd-10" value="AIRFLOW&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="45" width="1150" height="726" as="geometry" />
+        </mxCell>
+        <mxCell id="WEhfHssHNVyv2BFCGMFd-1" value="Mongo&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-68" y="363" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="WEhfHssHNVyv2BFCGMFd-2" value="User" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WEhfHssHNVyv2BFCGMFd-3" value="Invoice" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WEhfHssHNVyv2BFCGMFd-4" value="company" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WEhfHssHNVyv2BFCGMFd-5" value="subscription" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WEhfHssHNVyv2BFCGMFd-6" value="subscription_payment" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WEhfHssHNVyv2BFCGMFd-8" value="&lt;div&gt;Bigquery - Staging (Raw)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="452" y="363" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="WEhfHssHNVyv2BFCGMFd-9" value="&lt;div&gt;Bigquery - Integrations (Transform)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="804" y="356" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="WEhfHssHNVyv2BFCGMFd-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="88" y="452" as="sourcePoint" />
+            <mxPoint x="168" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEhfHssHNVyv2BFCGMFd-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="333" y="449.47" as="sourcePoint" />
+            <mxPoint x="413" y="449.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEhfHssHNVyv2BFCGMFd-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.65;exitY=0.558;exitDx=0;exitDy=0;exitPerimeter=0;width=35.1219512195122;endSize=7.409756097560976;" edge="1" parent="1" source="WEhfHssHNVyv2BFCGMFd-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="668" y="447.47" as="sourcePoint" />
+            <mxPoint x="748" y="447.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEhfHssHNVyv2BFCGMFd-16" value="DBT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WEhfHssHNVyv2BFCGMFd-14">
+          <mxGeometry x="0.0066" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

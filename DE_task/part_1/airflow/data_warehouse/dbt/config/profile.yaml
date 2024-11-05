@@ -1,0 +1,11 @@
+your_project_name:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: datawarehouse
+      dataset: integrations
+      threads: 1
+      keyfile: /path/to/your-service-account-file.json
+      location: australia-southeast1-a
